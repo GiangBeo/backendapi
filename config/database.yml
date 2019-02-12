@@ -13,13 +13,12 @@ default: &default
   adapter: mysql2
   encoding: utf8
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  username: f1j3szmkbme30z5x
-  password: h5otfiozzodwkpor
-  host: uf63wl4z2daq9dbb.chr7pe7iynqr.eu-west-1.rds.amazonaws.com
-
+  username: ElhgXgvzA0
+  password: AKO20c0VJF
+  host: remotemysql.com
 development:
   <<: *default
-  database: fjc90pkhcwuwzsu5
+  database: ElhgXgvzA0
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -49,6 +48,6 @@ test:
 #
 production:
   <<: *default
-  database: fjc90pkhcwuwzsu5
-  username: f1j3szmkbme30z5x
-  password: <%= ENV['BACKENDAPI_DATABASE_PASSWORD'] %>
+  database: ElhgXgvzA0
+  username: ElhgXgvzA0
+  password: AKO20c0VJF
