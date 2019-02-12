@@ -33,9 +33,6 @@ GEM
       activemodel (= 5.2.2)
       activesupport (= 5.2.2)
       arel (>= 9.0)
-    activerecord-memsql (1.0.0)
-      activerecord (>= 4.0.0)
-      mysql2 (>= 0.4.2, < 0.5)
     activestorage (5.2.2)
       actionpack (= 5.2.2)
       activerecord (= 5.2.2)
@@ -106,7 +103,7 @@ GEM
     minitest (5.11.3)
     msgpack (1.2.6)
     multi_json (1.13.1)
-    mysql2 (0.4.10)
+    mysql2 (0.5.2)
     nio4r (2.3.1)
     nokogiri (1.10.1)
       mini_portile2 (~> 2.4.0)
@@ -197,7 +194,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  activerecord-memsql
   bootsnap (>= 1.1.0)
   byebug
   capybara (>= 2.15)
